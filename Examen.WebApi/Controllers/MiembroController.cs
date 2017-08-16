@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Examen.Modelos;
 using Examen.UnidadDeTrabajo;
+using Examen.Modelos;
 
 namespace Examen.WebApi.Controllers
 {
