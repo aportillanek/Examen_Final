@@ -158,7 +158,7 @@
         vm.user = {};
         vm.title = 'Iniciar sesión';
         vm.login = login;
-
+        vm.showError = false;
         init();
 
         function init() {

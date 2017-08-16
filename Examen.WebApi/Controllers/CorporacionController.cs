@@ -12,6 +12,7 @@ namespace Examen.WebApi.Controllers
         }
 
         [HttpGet]
+        [Route("")]
         public IActionResult ListarTodo()
         {
             return Ok(_unidad.Corporaciones.ListarTodo());
